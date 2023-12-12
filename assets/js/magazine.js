@@ -179,7 +179,7 @@ function loadLargePage(page, pageElement) {
 
 	// Loadnew page
 	
-	img.attr('src', 'pages/' +  page + '-large.jpg');
+	img.attr('src', 'https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/magazine/pages/' +  page + '-large.jpg');
 }
 
 // Load small page
@@ -302,7 +302,7 @@ function setPreview(view) {
 
 	var previewWidth = 112,
 		previewHeight = 73,
-		previewSrc = 'pages/preview.jpg',
+		previewSrc = 'https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/magazine/pages/preview.jpg',
 		preview = $(_thumbPreview.children(':first')),
 		numPages = (view==1 || view==$('#slider').slider('option', 'max')) ? 1 : 2,
 		width = (numPages==1) ? previewWidth/2 : previewWidth;
