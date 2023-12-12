@@ -1,0 +1,885 @@
+<!--
+    templateType: page
+    isAvailableForNewContent: true
+    label: Reglamento de Egresados
+-->
+<html lang="{{ html_lang }}" {{ html_lang_dir }}>
+
+<head>
+    {{ standard_header_includes }}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    {% if page_meta.html_title or pageTitle %}<title>{{ page_meta.html_title or pageTitle }}</title>{% endif %}
+    <link rel="shortcut icon" href="https://www.unitec.mx/hubfs/01.UNITEC/assets/favicon-unitec.png">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="canonical" href="">
+    <link rel="stylesheet preload"
+        href="//cdn2.hubspot.net/hub/287524/hub_generated/template_assets/83340039688/1686173144334/unitec-theme/css/main.min.css"
+        as="style">
+    <link rel="stylesheet preload"
+        href="//cdn2.hubspot.net/hub/287524/hub_generated/template_assets/83338613777/1685479090234/unitec-theme/css/theme-overrides.min.css"
+        as="style">
+    <link rel="stylesheet preload"
+        href="//cdn2.hubspot.net/hub/287524/hub_generated/template_assets/88043605606/1684342268375/unitec-theme/css/libraries/bootstrap-4.min.css"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet"
+        href="https://20758416.fs1.hubspotusercontent-na1.net/hubfs/20758416/micro/css/text-unitec.min.css">
+    <style>
+        /*body {
+        padding: 15px;
+      }*/
+
+        .hs-fieldtype-text,
+        .hs-form-field,
+        .hs-submit {
+            margin-top: 35px;
+        }
+
+        .hs-submit {
+            text-align: center;
+        }
+
+        #hs_cos_wrapper_botonera_module_global .cmp-botonera {
+            position: fixed;
+            right: 0;
+            top: 35%;
+            -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+            -webkit-transition-duration: .3s;
+            transition-duration: .3s;
+            z-index: 999;
+        }
+
+        form input[type=email],
+        form input[type=tel],
+        form input[type=text] {
+            content: "";
+        }
+
+        .container-card {
+            border: 1px solid rgba(0, 0, 0, .2);
+            border-radius: 0.3rem;
+            padding: 28px;
+            width: 100%;
+            margin: auto;
+        }
+
+        .header-blue {
+            background-color: #006fba;
+            width: 100%;
+            height: 75px;
+            margin-bottom: 50px;
+        }
+
+        .blue-card {
+            color: #fff;
+            background-color: #006fba;
+            border-radius: 0.375rem;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .blue-card-tit {
+            font-size: 22px;
+        }
+
+        .blue-card-p {
+            font-size: 16px;
+        }
+
+        .blue-card-list li {
+            color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+        .blue-card h2 {
+            text-align: center;
+        }
+
+        .tit-desc {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: normal;
+            color: #fff;
+        }
+
+        .size-calc {
+            font-size: 25px;
+        }
+
+        .sub-desc {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: normal;
+            color: #fff;
+        }
+
+        .icon-hs {
+            height: 35px;
+        }
+
+        .hs-richtext p {
+            padding-top: 28px;
+        }
+
+        .hs-richtext p span {
+            color: #f68b1f;
+        }
+
+        .hs-richtext p a {
+            text-decoration: none;
+        }
+
+        .hs-richtext p,
+        .hs-richtext p a,
+        .hs-richtext p span {
+            font-size: 12.5px;
+        }
+
+        .space {
+            height: 50px;
+        }
+
+        form label span {
+            font-size: 15px;
+        }
+
+        .form-tit {
+            font-size: 22px;
+            font-weight: 300;
+        }
+
+        form .actions input[type=submit] {
+            color: #ffffff;
+        }
+
+        .success {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .success h1 {}
+
+        .success h3 {
+            padding-top: 25px;
+        }
+
+        .icon-x18 {
+            height: 18px;
+        }
+
+        .icon-x40 {
+            height: 40px;
+        }
+
+        .icon-color {
+            filter: hue-rotate(60deg) brightness(500%);
+        }
+
+        .icon-color2 {
+            filter: hue-rotate(35deg) brightness(700%);
+        }
+
+        @media screen and (max-width:1200px) {
+            .container-card {
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            .hidden-c {
+                display: none;
+            }
+        }
+    </style>
+    <style type="text/css" media="all">
+        .hidden {
+            display: none;
+            visibility: hidden;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            /*background-color: #ddd;*/
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: #999;
+        }
+
+        .section {
+            background-color: #fff;
+        }
+
+        .block {
+            max-width: 610px;
+            margin: 0 auto;
+        }
+
+        #wrap {
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .view-online-notice {
+            text-align: right;
+            margin: 5px 0;
+        }
+
+        /* header area */
+
+        .header-text {
+            font-size: 34px;
+            line-height: 34px;
+            color: #bbb;
+            margin: 25px 25px 20px;
+        }
+
+        .header-title {
+            float: left;
+        }
+
+        .header-subtitle {
+            float: right;
+            font-size: 24px;
+            line-height: 24px;
+            font-weight: 300;
+            color: #777777;
+        }
+
+        /* button styles */
+        .button {
+            border-radius: 3px;
+            color: white;
+            padding: 1px;
+            cursor: pointer;
+            background: white;
+            text-align: center;
+            display: inline-block;
+            background: #378ad8;
+            background-image: linear-gradient(top, #348ad5, #378ad8);
+            background-image: -webkit-linear-gradient(top, #348ad5, #378ad8);
+            background-image: -moz-linear-gradient(top, #348ad5, #378ad8);
+            background-image: -ms-linear-gradient(top, #348ad5, #378ad8);
+            background-image: -webkit-gradient(linear,
+                    left top,
+                    left bottom,
+                    color-stop(0%, #348ad5),
+                    color-stop(100%, #378ad8));
+            box-shadow: 0px 1px 4px #aaa;
+            margin: 15px 0 35px;
+        }
+
+        .button a {
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px;
+        }
+
+        .large-button {
+            font-size: 18px;
+        }
+
+        .large-button a {
+            padding: 8px 10px;
+        }
+
+        /* formulary */
+
+        /* content */
+        #content {
+            font-size: 14px;
+        }
+
+        #content .title {
+            font-size: 18px;
+            line-height: 22pt;
+            color: #333;
+            font-weight: normal;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #e2e2e2;
+            padding-bottom: 10px;
+        }
+
+        #content .sub-title {
+            border: none;
+            font-size: 22px;
+            line-height: 22pt;
+            color: #333;
+            font-weight: normal;
+        }
+
+        .check:before {
+            content: url("/nms/img/contentModels/icon_check.png");
+            margin-right: 10px;
+        }
+
+        #content .title-unsubscribe {
+            color: #368ad7;
+        }
+
+        #content .info {
+            padding: 25px 25px 20px;
+        }
+
+        .form {
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        .form .stacked {
+            display: block;
+            margin: 5px 0;
+            width: 100%;
+        }
+
+        .form .required:after {
+            content: "*";
+            color: red;
+        }
+
+        .form label {
+            font-size: 14px;
+        }
+
+        .form input {
+            height: 40px;
+            background: #fafafa;
+            border-radius: 1px;
+            border: none;
+            box-shadow: inset 0px 0px 1px 1px #dcdcdc;
+            color: #555;
+            padding: 5px 15px;
+        }
+
+        /* footer */
+        #footer {
+            text-align: center;
+            height: 20px;
+        }
+
+        #footer a {
+            color: #368ad7;
+        }
+
+        .footer-row {
+            margin: 10px 0;
+        }
+
+        .info .title {
+            margin-bottom: 4px;
+        }
+
+        @media screen and (max-width: 610px) {
+
+            body,
+            html {
+                width: 100%;
+                margin: 0 auto;
+            }
+
+            .banner,
+            .form {
+                width: 100%;
+            }
+
+            .header-text {
+                float: none;
+                line-height: inherit;
+            }
+
+            .view-online-notice {
+                text-align: center;
+            }
+        }
+    </style>
+    <style>
+        .select2-selection__placeholder,
+        .select2-selection__rendered {
+            color: #fff;
+            /*font-size: 18px;*/
+        }
+
+        .btn {
+            color: #fff;
+            cursor: pointer;
+        }
+
+        form input[type=email],
+        input[type=text] {
+            padding: 20px 14px 0px 14px !important;
+        }
+
+        .layerLoadingHide {
+            display: none;
+        }
+
+        .layerLoading {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+            opacity: 0.7;
+            color: #111;
+            text-align: center;
+        }
+    </style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--script type="text/javascript"
+        src="https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/magazine/extras/jquery.min.1.7.js"></script-->
+    <script type="text/javascript"
+        src="https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/magazine/extras/jquery-ui-1.8.20.custom.min.js"></script>
+    <script type="text/javascript"
+        src="https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/magazine/extras/modernizr.2.5.3.min.js"></script>
+    <script type="text/javascript"
+        src="https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/magazine/lib/hash.js"></script>
+
+    <!--script src="//cdn2.hubspot.net/hub/20758416/hub_generated/template_assets/119415086004/1686244643236/unitec-theme/js/jquery-3.1.1.min.js"></script>
+  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script-->
+    <!--Landing-Social->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn2.hubspot.net/hubfs/49484/JS/funciones.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn2.hubspot.net/hubfs/49484/JS/jquery_validation/localization/messages_es.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript ->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.min.js"></script>
+    <--script src="https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/js/envioCRM.js"></script>
+    <script src="https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/js/envioCRM2.js"></script>
+    <--/Landing-Social->
+    <script src="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.css">
+    -->
+
+    
+</head>
+{% block header %}
+{% module 'page_settings' path='./../modules/page_settings', label="Page Settings", no_wrapper=true,
+export_to_template_context="true" %}
+{% endblock header %}
+
+<body>
+    <main id="main-content" class="body-container-wrapper">
+
+        <div class="header--inner content-wrap">
+            <div class="header-top-bar" id="headerTopBar" style="background-color:#0d6fb8">
+                <div class="header-top-bar-inner content-wrapper d--flex flex-row-reverse flex-xl-row">
+                    <div class="top-bar-logo py-3 px-3">
+                        <span id="hs_cos_wrapper_site_logo_hs_logo_widget"
+                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_logo" style=""
+                            data-hs-cos-general-type="widget" data-hs-cos-type="logo">
+                            <a data-gtm-tr="Call to action" aria-label="Ir al inicio del sitio"
+                                data-gtm-accion="envio a pagina" data-gtm-location="Header"
+                                href="https://www.unitec.mx/?_ga=2.38318304.2115334220.1687188514-1970539692.1685640480"
+                                id="hs-link-site_logo_hs_logo_widget">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 348 84"
+                                    style="enable-background:new 0 0 348 84" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0 {
+                                            fill: #fff
+                                        }
+                                    </style>
+                                    <g>
+                                        <path class="st0" d="M33.6,49.8c0,4.4-0.4,7.5-1.4,9.2c-0.9,1.8-2.5,2.7-4.7,2.7S24,60.9,23,59.1c-1-1.8-1.4-4.9-1.4-9.3V2.3H1.1
+                            v47.6c0,7.2,0.5,12.7,1.5,16.4c1,3.6,2.9,6.9,5.4,9.5c2.3,2.4,5.2,4.2,8.3,5.3c3.6,1.3,7.4,2,11.2,1.9c3.8,0,7.6-0.6,11.3-1.9
+                            c3.1-1.1,6-2.9,8.4-5.3c2.5-2.7,4.3-5.9,5.3-9.4c1-3.7,1.5-9.2,1.5-16.6V2.3H33.6V49.8z">
+                                        </path>
+                                        <polygon class="st0"
+                                            points="108.6,36.7 79.3,2.3 70.4,2.3 70.4,80.9 90.7,80.9 90.7,46.8 119.7,80.9 128.9,80.9 128.9,2.3 108.6,2.3 	">
+                                        </polygon>
+                                        <rect x="144.2" y="2.3" class="st0" width="20.3" height="78.6"></rect>
+                                        <polygon class="st0"
+                                            points="177.8,2.3 175.8,22.1 191.7,22.1 191.7,80.9 212.1,80.9 212.1,22.1 228.1,22.1 225.9,2.3 	">
+                                        </polygon>
+                                        <polygon class="st0"
+                                            points="257.4,51.9 275.1,51.9 275.1,31.2 257.4,31.2 257.4,23.1 283.9,23.1 280.5,2.3 237,2.3 237,80.9 280.7,80.9 286.2,59.2 257.4,59.2 	">
+                                        </polygon>
+                                        <path class="st0" d="M340.8,59.4c-2.1,0.5-4.1,0.8-6.2,0.8c-5.8,0-10.6-1.9-14.4-5.4c-3.8-3.4-5.9-8.3-5.8-13.4
+                            c0-5.4,1.9-9.8,5.8-13.3c3.9-3.4,8.9-5.2,15.1-5.2c1.8,0,3.5,0.2,5.3,0.6c1.8,0.4,3.6,1,5.4,1.8l-1.1-23.3
+                            c-1.7-0.3-3.4-0.6-4.9-0.8c-1.5-0.2-3-0.3-4.5-0.3c-12.3,0-22.4,3.8-30.5,11.6c-7.9,7.8-11.9,17.6-11.9,29.6
+                            c0,11.9,3.9,21.4,11.5,28.9c7.7,7.4,17.7,11.1,30.1,11.1c1.9,0,3.8-0.1,5.7-0.3c1.7-0.2,3.3-0.5,4.9-1l1.7-23.8
+                            C345,58.1,342.9,58.9,340.8,59.4z"></path>
+                                    </g>
+                                </svg>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="space"></div>
+            <div class="container-card">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <!--Contenido-->
+                                <div id="canvas">
+                                    <div class="zoom-icon zoom-icon-in"></div>
+                                    <div class="magazine-viewport">
+                                        <div class="container">
+                                            <div class="magazine">
+                                                <!-- Next button -->
+                                                <div ignore="1" class="next-button"></div>
+                                                <!-- Previous button -->
+                                                <div ignore="1" class="previous-button"></div>
+                                            </div>
+                                        </div>
+                                        <div class="bottom">
+                                            <div id="slider-bar" class="turnjs-slider">
+                                                <div id="slider"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <script type="text/javascript">
+                                        function loadApp() {
+                                            $('#canvas').fadeIn(1000);
+                                            var flipbook = $('.magazine');
+
+                                            // Check if the CSS was already loaded
+                                            if (flipbook.width() == 0 || flipbook.height() == 0) {
+                                                setTimeout(loadApp, 10);
+                                                return;
+                                            }
+
+                                            // Create the flipbook      
+                                            flipbook.turn({
+
+                                                // Magazine width
+
+                                                width: 922,
+
+                                                // Magazine height
+
+                                                height: 600,
+
+                                                // Duration in millisecond
+
+                                                duration: 1000,
+
+                                                // Enables gradients
+
+                                                gradients: true,
+
+                                                // Auto center this flipbook
+
+                                                autoCenter: true,
+
+                                                // Elevation from the edge of the flipbook when turning a page
+
+                                                elevation: 50,
+
+                                                // The number of pages
+
+                                                pages: 4,
+
+                                                // Events
+
+                                                when: {
+                                                    turning: function (event, page, view) {
+
+                                                        var book = $(this),
+                                                            currentPage = book.turn('page'),
+                                                            pages = book.turn('https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/magazine/pages');
+
+                                                        // Update the current URI
+
+                                                        Hash.go('page/' + page).update();
+
+                                                        // Show and hide navigation buttons
+
+                                                        disableControls(page);
+
+                                                    },
+
+                                                    turned: function (event, page, view) {
+
+                                                        disableControls(page);
+
+                                                        $(this).turn('center');
+
+                                                        $('#slider').slider('value', getViewNumber($(this), page));
+
+                                                        if (page == 1) {
+                                                            $(this).turn('peel', 'br');
+                                                        }
+
+                                                    },
+                                                    missing: function (event, pages) {
+                                                        // Add pages that aren't in the magazine
+                                                        for (var i = 0; i < pages.length; i++)
+                                                            addPage(pages[i], $(this));
+                                                    }
+                                                }
+                                            });
+
+                                            // Zoom.js
+                                            $('.magazine-viewport').zoom({
+                                                flipbook: $('.magazine'),
+                                                max: function () {
+                                                    return largeMagazineWidth() / $('.magazine').width();
+                                                },
+                                                when: {
+                                                    swipeLeft: function () {
+                                                        $(this).zoom('flipbook').turn('next');
+                                                    },
+                                                    swipeRight: function () {
+                                                        $(this).zoom('flipbook').turn('previous');
+                                                    },
+                                                    resize: function (event, scale, page, pageElement) {
+                                                        if (scale == 1)
+                                                            loadSmallPage(page, pageElement);
+                                                        else
+                                                            loadLargePage(page, pageElement);
+                                                    },
+                                                    zoomIn: function () {
+                                                        $('#slider-bar').hide();
+                                                        $('.made').hide();
+                                                        $('.magazine').removeClass('animated').addClass('zoom-in');
+                                                        $('.zoom-icon').removeClass('zoom-icon-in').addClass('zoom-icon-out');
+
+                                                        if (!window.escTip && !$.isTouch) {
+                                                            escTip = true;
+                                                            $('<div />', { 'class': 'exit-message' }).
+                                                                html('<div>Press ESC to exit</div>').
+                                                                appendTo($('body')).
+                                                                delay(2000).
+                                                                animate({ opacity: 0 }, 500, function () {
+                                                                    $(this).remove();
+                                                                });
+                                                        }
+                                                    },
+
+                                                    zoomOut: function () {
+                                                        $('#slider-bar').fadeIn();
+                                                        $('.exit-message').hide();
+                                                        $('.made').fadeIn();
+                                                        $('.zoom-icon').removeClass('zoom-icon-out').addClass('zoom-icon-in');
+                                                        setTimeout(function () {
+                                                            $('.magazine').addClass('animated').removeClass('zoom-in');
+                                                            resizeViewport();
+                                                        }, 0);
+                                                    }
+                                                }
+                                            });
+
+                                            // Zoom event   
+                                            if ($.isTouch)
+                                                $('.magazine-viewport').bind('zoom.doubleTap', zoomTo);
+                                            else
+                                                $('.magazine-viewport').bind('zoom.tap', zoomTo);
+
+                                            // Using arrow keys to turn the page    
+                                            $(document).keydown(function (e) {
+                                                var previous = 37, next = 39, esc = 27;
+                                                switch (e.keyCode) {
+                                                    case previous:
+                                                        // left arrow
+                                                        $('.magazine').turn('previous');
+                                                        e.preventDefault();
+                                                        break;
+                                                    case next:
+                                                        //right arrow
+                                                        $('.magazine').turn('next');
+                                                        e.preventDefault();
+                                                        break;
+                                                    case esc:
+                                                        $('.magazine-viewport').zoom('zoomOut');
+                                                        e.preventDefault();
+                                                        break;
+                                                }
+                                            });
+
+                                            // URIs - Format #/page/1 
+                                            Hash.on('^page\/([0-9]*)$', {
+                                                yep: function (path, parts) {
+                                                    var page = parts[1];
+                                                    if (page !== undefined) {
+                                                        if ($('.magazine').turn('is'))
+                                                            $('.magazine').turn('page', page);
+                                                    }
+                                                },
+                                                nop: function (path) {
+                                                    if ($('.magazine').turn('is'))
+                                                        $('.magazine').turn('page', 1);
+                                                }
+                                            });
+
+                                            $(window).resize(function () {
+                                                resizeViewport();
+                                            }).bind('orientationchange', function () {
+                                                resizeViewport();
+                                            });
+
+                                            // Regions
+                                            if ($.isTouch) {
+                                                $('.magazine').bind('touchstart', regionClick);
+                                            } else {
+                                                $('.magazine').click(regionClick);
+                                            }
+
+                                            // Events for the next button
+                                            $('.next-button').bind($.mouseEvents.over, function () {
+                                                $(this).addClass('next-button-hover');
+
+                                            }).bind($.mouseEvents.out, function () {
+
+                                                $(this).removeClass('next-button-hover');
+
+                                            }).bind($.mouseEvents.down, function () {
+
+                                                $(this).addClass('next-button-down');
+
+                                            }).bind($.mouseEvents.up, function () {
+
+                                                $(this).removeClass('next-button-down');
+
+                                            }).click(function () {
+
+                                                $('.magazine').turn('next');
+
+                                            });
+
+                                            // Events for the next button
+
+                                            $('.previous-button').bind($.mouseEvents.over, function () {
+
+                                                $(this).addClass('previous-button-hover');
+
+                                            }).bind($.mouseEvents.out, function () {
+
+                                                $(this).removeClass('previous-button-hover');
+
+                                            }).bind($.mouseEvents.down, function () {
+
+                                                $(this).addClass('previous-button-down');
+
+                                            }).bind($.mouseEvents.up, function () {
+
+                                                $(this).removeClass('previous-button-down');
+
+                                            }).click(function () {
+
+                                                $('.magazine').turn('previous');
+
+                                            });
+
+
+                                            // Slider
+
+                                            $("#slider").slider({
+                                                min: 1,
+                                                max: numberOfViews(flipbook),
+
+                                                start: function (event, ui) {
+
+                                                    if (!window._thumbPreview) {
+                                                        _thumbPreview = $('<div />', { 'class': 'thumbnail' }).html('<div></div>');
+                                                        setPreview(ui.value);
+                                                        _thumbPreview.appendTo($(ui.handle));
+                                                    } else
+                                                        setPreview(ui.value);
+
+                                                    moveBar(false);
+
+                                                },
+
+                                                slide: function (event, ui) {
+
+                                                    setPreview(ui.value);
+
+                                                },
+
+                                                stop: function () {
+
+                                                    if (window._thumbPreview)
+                                                        _thumbPreview.removeClass('show');
+
+                                                    $('.magazine').turn('page', Math.max(1, $(this).slider('value') * 2 - 2));
+
+                                                }
+                                            });
+                                            resizeViewport();
+                                            $('.magazine').addClass('animated');
+                                        }
+
+                                        // Zoom icon
+                                        $('.zoom-icon').bind('mouseover', function () {
+                                            if ($(this).hasClass('zoom-icon-in'))
+                                                $(this).addClass('zoom-icon-in-hover');
+                                            if ($(this).hasClass('zoom-icon-out'))
+                                                $(this).addClass('zoom-icon-out-hover');
+                                        }).bind('mouseout', function () {
+                                            if ($(this).hasClass('zoom-icon-in'))
+                                                $(this).removeClass('zoom-icon-in-hover');
+                                            if ($(this).hasClass('zoom-icon-out'))
+                                                $(this).removeClass('zoom-icon-out-hover');
+                                        }).bind('click', function () {
+                                            if ($(this).hasClass('zoom-icon-in'))
+                                                $('.magazine-viewport').zoom('zoomIn');
+                                            else if ($(this).hasClass('zoom-icon-out'))
+                                                $('.magazine-viewport').zoom('zoomOut');
+                                        });
+
+                                        $('#canvas').hide();
+
+                                        // Load the HTML4 version if there's not CSS transform
+                                        yepnope({
+                                            test: Modernizr.csstransforms,
+                                            yep: ['https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/magazine/lib/turn.min.js'],
+                                            nope: ['https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/magazine/lib/turn.html4.min.js', 'https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/magazine/assets/css/jquery.ui.html4.css'],
+                                            both: ['https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/magazine/lib/zoom.min.js', 'https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/magazine/assets/css/jquery.ui.css', 'https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/magazine/assets/js/magazine.js', 'https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/magazine/assets/css/magazine.css'],
+                                            complete: loadApp
+                                        });
+                                    </script>
+
+                                </div>
+                       
+                        <!--/Contenido-->
+
+                            {#% block body %}
+
+                            {% dnd_area "dnd_area"
+                            label="Main section"
+                            %}
+
+                            {% end_dnd_area %}
+
+                            {% endblock body %#}
+
+                        </div>
+                    </div>
+                    <div class="space"></div>
+                </div>
+                <div class="space"></div>
+            </div>
+
+    </main>
+
+    {% block footer %}
+    {% endblock footer %}
+    {{ standard_footer_includes }}
+</body>
+
+</html>
