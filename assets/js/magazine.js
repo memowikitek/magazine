@@ -354,8 +354,6 @@ function decodeParams(data) {
 		d = parts[i].split('=');
 		obj[decodeURIComponent(d[0])] = decodeURIComponent(d[1]);
 	}
-	console.info(obj);
-	console.warn(obj);
 	return obj;
 }
 
