@@ -48,7 +48,7 @@ function loadPage(page, pageElement) {
 
 	// Load the page
 
-	img.attr('src', 'pages/' +  page + '.jpg');
+	img.attr('src', 'https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/magazine/pages/' +  page + '.jpg');
 
 	loadRegions(page, pageElement);
 
@@ -193,7 +193,7 @@ function loadSmallPage(page, pageElement) {
 	img.unbind('load');
 	// Loadnew page
 
-	img.attr('src', 'pages/' +  page + '.jpg');
+	img.attr('src', 'https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/magazine/pages/' +  page + '.jpg');
 }
 
 // http://code.google.com/p/chromium/issues/detail?id=128488
